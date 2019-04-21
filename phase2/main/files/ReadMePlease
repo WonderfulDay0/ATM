@@ -1,0 +1,9 @@
+As the code is (from a fresh clone), everything should work as is. If there is ever a need to reset the serialization,
+please comment out line 28, and uncomment line 27 from Bank.main and run the program. Login (with default user found in
+Employees.txt) or register a user and log out. Then, re-comment out line 27, and uncomment like 28 and continue to run
+the program like that.
+Note, upon closing the program from an X button on the frame or exiting through an exception, the serialization will not
+save the new state, but instead it will maintain its old state.
+
+To test time-sensitive features, please login as the employee using user: @mark and pass: a, and log in as employee.
+Proceed to click set date and choose how many months forward you would like to further the time.
